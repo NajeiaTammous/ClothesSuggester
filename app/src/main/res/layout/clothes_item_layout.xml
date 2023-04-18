@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/firstCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F6f6f6"
+        android:layout_marginTop="16dp"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:id="@+id/ClothesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left">
+
+            <ImageView
+                android:id="@+id/ClothesImage"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/green_shirt"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/ClothesTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Summer Green TopShirt"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:layout_gravity="top"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
