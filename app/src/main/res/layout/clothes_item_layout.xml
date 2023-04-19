@@ -21,14 +21,14 @@
                 android:id="@+id/ClothesImage"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
-                android:src="@drawable/green_shirt"
+                android:src="@drawable/winter_gray_set"
                 android:scaleType="centerCrop" />
 
             <TextView
                 android:id="@+id/ClothesTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Your Summer Green TopShirt"
+                android:text="Your Winter Gray pyjama"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="24dp"

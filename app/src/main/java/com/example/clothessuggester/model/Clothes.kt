@@ -13,9 +13,9 @@ enum class Season(
     val clothes: List<ClothesItem>
 ) {
     SUMMER(16..50, listOf(
-        ClothesItem("Your Summer Green TopShirt", R.drawable.green_shirt, Season.SUMMER),
         ClothesItem("Your Beautiful Summer Suit", R.drawable.summer_outfit, Season.SUMMER),
         ClothesItem("your Red T-shirt", R.drawable.summer_red_shirt, Season.SUMMER),
+        ClothesItem("Your Summer Green TopShirt", R.drawable.green_shirt, Season.SUMMER),
         ClothesItem("your Summer Colorful Jacket", R.drawable.summer_jaket, Season.SUMMER)
     )),
     WINTER(0..15, listOf(
